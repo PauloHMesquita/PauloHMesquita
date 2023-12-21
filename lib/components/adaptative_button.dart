@@ -28,7 +28,6 @@ class AdaptativeButton extends StatelessWidget {
               label,
               style: TextStyle(
                 color: Theme.of(context).textTheme.labelLarge?.color,
-                backgroundColor: Colors.purple,
               ),
             ),
             onPressed: onPressed,
